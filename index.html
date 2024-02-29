@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Job Portal</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<style>
+		h1{
+			margin-top: 20px;
+		}
+		.dropdown-button {
+			background-color: rgb(66, 63, 63);
+			color: azure;
+			padding: 16px;
+			font-size: 16px;
+			border: none;
+		}
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+		.dropdown-list{
+			display: none;
+			position: absolute;
+			background-color: rgb(217, 230, 225);
+			min-width: 200px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+		.dropdown-list a{
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+			font-family: verdana;
+		}
+		.dropdown-list a:hover{
+			background-color: #ffffff;
+		}
+		.dropdown:hover .dropdown-list{
+			display: block;
+		}
+		.dropdown:hover .dropdown-button{
+			background-color: rgb(66, 63, 63);
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<div class="clearfix">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo4.png" alt="LOGO" height="62" width="410"></a>
+			</div>
+			<ul class="navigation">
+				<li class="active">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="company.html">Company</a>
+				</li>
+				<li>
+					<a href="sign.html">Sign In</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<h1><label for="Jobs"><b>Find suitable jobs at one go</b></label><br></h1>
+<div class="dropdown">
+	<button class="dropdown-button">Job Title</button>
+	<div class="dropdown-list">
+		<a href="eh.html">Ethical Hacking</a>
+		<a href="ba.html">Business Analyst</a>
+		<a href="wd.html">Web Developer</a>
+	</div>
+</div>
+	<div id="contents">
+		<div id="adbox">
+			<div class="clearfix">
+				<img src="images/jobs.webp" alt="Img" height="382" width="594">
+				<div class="detail">
+					<h1>It’s never easy...<br> When it comes to career.</h1>
+					<p>
+						But we can set<br> everything straight.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="highlight">
+			<div class="clearfix">
+				<div class="testimonial">
+					<h2>Testimonials</h2>
+					<p>
+						"A new job is like a blank book and you are the author."
+					</p>
+					<span>-Pavan</span>
+				</div>
+				<h1>About Us</h1>
+				<p>
+					Job Vista strives to put job seekers first, giving them free access to search for jobs, post resumes, and research companies. Every day, we connect millions of people to new opportunities. With Job Vista, you can search millions of jobs online to find the next step in your career.
+				</p>
+			</div>
+		</div>
+		<div class="featured">
+			<h2>Why Choose Us?</h2>
+			<ul class="clearfix">
+				<li>
+					<div class="frame1">
+						<div class="box">
+							<img src="images/meeting.jpg" alt="Img" height="130" width="197">
+						</div>
+					</div>
+					<p>
+						<b>Right Fit</b> Job Vista give you access to the most talent in every field.
+					</p>
+					<a href="index.html" class="more">Read More</a>
+				</li>
+				<li>
+					<div class="frame1">
+						<div class="box">
+							<img src="images/handshake.jpg" alt="Img" height="130" width="197">
+						</div>
+					</div>
+					<p>
+						<b>Quality Hires</b> Job Vista is the external source of hire.
+					</p>
+					<a href="company.html" class="more">Read More</a>
+				</li>
+				<li>
+					<div class="frame1">
+						<div class="box">
+							<img src="images/smile.jpg" alt="Img" height="130" width="197">
+						</div>
+					</div>
+					<p>
+						<b>what we offer</b> We offer you the platform to Unleash your potential and transform the world with us.
+					</p>
+					<a href="company.html" class="more">Read More</a>
+				</li>
+				<li>
+					<div class="frame1">
+						<div class="box">
+							<img src="images/website.png" alt="Img" height="130" width="197">
+						</div>
+					</div>
+					<p>
+						<b>get in touch with us</b> For any inconvinience caused using this website please contact us.
+					</p>
+					<a href="contact.html" class="more">Read More</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="clearfix">
+			<div class="section">
+				<h4>Latest Jobs</h4>
+				<p>
+					Team Leader<br>
+					Bajaj Allianz, Bihar<br>
+					Salary: ₹15,000 - ₹40,000 a month
+				</p>
+			</div>
+			<div class="section contact">
+				<h4>Contact Us</h4>
+				<p>
+					<span>Address:</span> Phagwara (144001), Punjab
+				</p>
+				<p>
+					<span>Phone:</span> +91 1824517075
+				</p>
+				<p>
+					<span>Email:</span> info@jobvista.com
+				</p>
+			</div>
+			<div class="section">
+				<h4>SEND US A MESSAGE</h4>
+				<p>
+					If you're having problems using this website, then don't hesitate to ask for help on the Forums.
+				</p>
+			</div>
+		</div>
+		<div id="footnote">
+			<div class="clearfix">
+				<div class="connect">
+					<a href="https://www.facebook.com/" class="facebook"></a><a href="https://twitter.com/?lang=en-in" class="twitter"></a>
+				</div>
+				<p>
+					© Copyright 2023 Job Vista. All Rights Reserved.
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
